@@ -1,6 +1,4 @@
 body {
-    width: 100vw;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: 0;
