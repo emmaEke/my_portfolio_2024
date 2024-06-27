@@ -12,10 +12,10 @@ nav {
     background-color: #0F62FE;
     /* background-color: #252A2F; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     position: fixed;
-    z-index: 99;
+    z-index: 2;
 }
 
 a {
@@ -26,7 +26,6 @@ a {
     font-size: 20px;
     font-weight: 600;
     color: black;
-    margin-right: 30px;
 }
 
 #blinking {
@@ -172,7 +171,6 @@ span {
 #theme {
     height: 30px;
     width: 100px;
-    margin-left: 20px;
     font-weight: 700;
     border-radius: 20px;
     text-align: center;
@@ -502,7 +500,7 @@ li {
     text-align: left;
     /* justify-content: center; */
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 footer {
     height: 50px;
@@ -720,8 +718,8 @@ footer {
     .socials,.mail {
         height: 60%;
         width: 70%;
-        align-items: start;
-        justify-content: start;
+        align-items: center;
+        justify-content: center;
         display: flex;
         flex-direction: column;
     }
