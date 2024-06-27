@@ -8,7 +8,7 @@ body {
 
 nav {
     height: 50px;
-    width: 100%;
+    width: 100vw;
     background-color: #0F62FE;
     /* background-color: #252A2F; */
     align-items: center;
