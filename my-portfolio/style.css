@@ -269,12 +269,13 @@ span {
     height: 100%;
     background-image: url(images/40127572_8771935.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .short {
     text-align: right;
     font-size: 40px;
-    color: blue;
+    color: #0f62fe;
     width: 80%;
     margin-right: 50px;
 }
@@ -579,7 +580,7 @@ footer {
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:990px){
     main {
         height: 130vh;
         flex-direction: column;
@@ -724,4 +725,45 @@ footer {
         display: flex;
         flex-direction: column;
     }
+}
+
+@media screen and (max-width:660px){
+    .socials,.mail {
+        height: 60%;
+        width: 100%;
+        align-items: start;
+        justify-content: start;
+        display: flex;
+        flex-direction: column;
+    }
+    .developer {
+        height: 35px;
+        width: 250px;
+    }
+    @keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-35px);
+    }
+    50% {
+        transform: translateY(-35px);
+    }
+    60% {
+        transform: translateY(-70px);
+    }
+    80% {
+        transform: translateY(-70px);
+    }
+    90% {
+        transform: translateY(-105px);
+    }
+    100% {
+        transform: translateY(-105px);
+    }
+}
 }
