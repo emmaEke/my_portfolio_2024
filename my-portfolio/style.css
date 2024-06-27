@@ -1,4 +1,6 @@
 body {
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -12,7 +14,7 @@ nav {
     background-color: #0F62FE;
     /* background-color: #252A2F; */
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
     position: fixed;
     z-index: 2;
