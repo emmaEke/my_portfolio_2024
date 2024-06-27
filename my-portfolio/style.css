@@ -9,6 +9,7 @@ body {
 nav {
     height: 50px;
     width: 100vw;
+    overflow-x: hidden;
     background-color: #0F62FE;
     /* background-color: #252A2F; */
     align-items: center;
@@ -61,6 +62,7 @@ main {
     justify-content: center;
     display: flex;
     color: white;
+    overflow-x: hidden;
 }
 
 .hello {
@@ -166,6 +168,7 @@ span {
     color: white;
     margin: 0;
     border: none;
+    overflow-x: hidden;
 }
 
 #theme {
